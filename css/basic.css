@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+*{margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+img{vertical-align: middle;
+    max-width: 100%;
+}
+
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+header{
+    height: 150px;
+}
+
+header img{
+    width: 150px;
+    height: 120px;
+
+}
+
+header h4{
+    font-size: 16px;
+}
+
+button{
+
+}
+
+
+.carousel-item img{
+    
+}
+
+section{
+    padding:70px 0;
+}
+
+section p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+
+footer {
+    padding: 40px 0 70px;
+}
+
+footer img{
+    width: 80px;
+    height: 50px;
+}
+
+
+footer h3{
+    color: #111;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer .address{
+    font-size: 12px;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+footer a{
+    color: #8b98a3;
+}
+
+footer li a:hover{
+    text-decoration: underline;
+    color: #8b98a3;
+}
+
+.sns{}
+
+.sns a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background: #2d2e2f;
+    margin-right: 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.sns a:hover{
+    background: #454749;
+}
+
+.sns a i{
+    color: #fff;
+}
+
+
+/*****1440px 이상*****/
+@media (min-width:1440px){
+    header{
+        
+    
+}
+
+/*****991px 미만*****/
+@media (max-width:991px){
+    header{
+        
+    }
+
+    header img{
+        width: 150px;
+        height: 120px;
+    
+    }
+
+    header h4{
+        font-size: 14px;
+    }
+
+    header button {
+        transform: scale(0.7);
+    }
+
+    header img{
+        width: 40px;
+    }
+
+    header .hText{
+        font-size: 14px;
+    }
+
+    section{
+        padding: 40px 0;
+    }
+
+    section h2{
+        font-size: 24px;
+    }
+}
+
+
+
+/*****560px 미만*****/
+
+@media(max-width:560px){
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sns{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/****** 1200px-xl 이상******/
+@media(min-width:1200px){
+    header img{
+        width: 150px;
+        height: 120px;
+    
+    }
+}
+
+/****** 1400px-xxl 이상******/
+@media(min-width:1200px){
+    
+}
